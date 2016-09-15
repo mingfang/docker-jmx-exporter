@@ -7,4 +7,4 @@ source /etc/envvars
 sed -i -e "s|{{JMX_URL}}|$JMX_URL|" /config.yml
 
 exec 2>&1
-exec java -jar /jmx-exporter.jar 5556 /config.yml
+exec java -jar /jmx-exporter.jar 9102 /config.yml
