@@ -1,0 +1,4 @@
+jmxUrl: {{JMX_URL}}
+
+rules:
+- pattern: ".*"
